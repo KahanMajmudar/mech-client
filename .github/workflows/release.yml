@@ -19,7 +19,6 @@ jobs:
                   sudo apt-get update --fix-missing
                   sudo apt-get autoremove
                   sudo apt-get autoclean
-                  sudo apt-get install python3-distutils
                   python -m pip install --upgrade pip
                   pip install twine poetry==1.4.2
                   poetry install
